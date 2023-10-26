@@ -39,10 +39,6 @@ fun View.applyBluryToView(
     showOriginalView: Boolean = false
 ) {
 
-//    (this as ViewGroup).children.forEachIndexed { index, view ->
-//        if (index != 0) removeView(view)
-//    }
-
     Blurry.with(context).radius(radiusNeeded).sampling(sampling).animate(animationDuration)
         .onto(this as ViewGroup).apply {
             when (showOriginalView) {
