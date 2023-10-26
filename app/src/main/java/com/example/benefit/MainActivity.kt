@@ -136,9 +136,12 @@ class MainActivity : AppCompatActivity() ,BenefitStatusDelegate{
         val configuration = LinkedHashMap<String,Any>()
 
 
+
+
         /**
          * transaction && scope
          */
+
 
         intent.putExtra("scopeKey", getPrefStringValue("scopeKey","Token"))
         intent.putExtra("transactionRefrenceKey", getPrefStringValue("transactionRefrenceKey",""))
