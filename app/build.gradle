@@ -50,7 +50,7 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
     implementation 'com.github.Tap-Payments:TapAndroidForm:0.0.1'
-    implementation project(path: ':benefit-sdk')
-    //    implementation 'com.github.Tap-Payments:Knet-Android:0.0.0.1'
+   implementation project(path: ':benefit-sdk')
+//    implementation 'com.github.Tap-Payments:Benefit-Android:0.0.1'
 
 }
